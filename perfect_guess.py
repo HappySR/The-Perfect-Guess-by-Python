@@ -28,7 +28,7 @@ def guess_the_number():
     try:
         with open("hi-score.txt", "r") as f:
 
-            hiscore = f.read() # hiscore = f.read() is line ka matlab hai jo bhi f k andar tha wo sab hiscore ko assign krdo
+            hiscore = f.read()
 
             if(hiscore != ""):
                 hiscore = int(hiscore)
