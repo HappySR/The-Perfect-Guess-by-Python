@@ -8,7 +8,7 @@ def guess_the_number():
                       
     end = int(input("Choose an ending range : "))
     
-    comp = randint(start, end + 1)
+    comp = randint(start, end)
 
     user = int(input("Enter your Guess : "))
 
