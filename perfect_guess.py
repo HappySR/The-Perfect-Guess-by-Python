@@ -4,9 +4,9 @@ def guess_the_number():
 
     name = input("Enter your name : ")
 
-    start = int(input("Choose a starting range : ))
+    start = int(input("Choose a starting range : "))
                       
-    end = int(input("Choose an ending range : ))
+    end = int(input("Choose an ending range : "))
     
     comp = randint(start, end + 1)
 
